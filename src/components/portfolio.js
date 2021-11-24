@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./footer"
 
 export default function renderPortfolio() {
     
@@ -71,6 +72,7 @@ export default function renderPortfolio() {
           </div>
         </div>
       </div>
+      <Footer/>
     </section>
   );
 }

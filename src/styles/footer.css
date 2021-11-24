@@ -1,0 +1,6 @@
+footer {
+    display: block;
+    font-family: var(--font-style);
+    background-color: rgba(218, 123, 147, 0.8);
+    text-align: center;
+  }

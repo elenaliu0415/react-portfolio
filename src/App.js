@@ -26,16 +26,16 @@ function App() {
       <nav className="navbar">
         <ul>
           <li>
-            <a href="/#home" onClick={() => setCurrentPage("home")}>Home</a>
+            <a href="#home" onClick={() => setCurrentPage("home")}>Home</a>
           </li>
           <li>
-            <a href="/#about" onClick={() => setCurrentPage("about")}>About</a>
+            <a href="#about" onClick={() => setCurrentPage("about")}>About</a>
           </li>
           <li>
-            <a href="/#portfolio" onClick={() => setCurrentPage("portfolio")}>Portfolio</a>
+            <a href="#portfolio" onClick={() => setCurrentPage("portfolio")}>Portfolio</a>
           </li>
           <li>
-            <a href="/#contact" onClick={() => setCurrentPage("contact")}>Contact</a>
+            <a href="#contact" onClick={() => setCurrentPage("contact")}>Contact</a>
           </li>
           <li>
             <a href="./Yi_Liu_Resume_15.PDF" download>

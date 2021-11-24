@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/about.css";
+import Footer from "./footer"
 
 export default function renderAbout() {
   return (
     <section id="about">
-      <h2 className="heading">About</h2>
       <div id="avatar" className="contents">
         <img
           id="me"
-          src="./Assets/css/recent-photo.JPG"
+          src="./images/recent-photo2.JPG" 
           alt="Elena"
         />
         <div id="intro">
@@ -24,6 +24,7 @@ export default function renderAbout() {
           </p>
         </div>
       </div>
+      <Footer/>
     </section>
   );
 }
