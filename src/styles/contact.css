@@ -1,0 +1,13 @@
+#contact {
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(218, 123, 147, 0.2);
+  }
+  
+  .icon1 {
+      margin: 10px;
+  }
+
+  .icon2 {
+      margin: 10px;
+  }
