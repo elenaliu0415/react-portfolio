@@ -1,0 +1,34 @@
+#about {
+    font-family: var(--font-style);
+    display: flex;
+    background-color: rgba(218, 123, 147, 0.2);
+    color: var(--darkest);
+  }
+  
+  #me {
+    width: 50%;
+  }
+  
+  #intro {
+    display: flex;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .heading {
+    padding-right: 0.5rem;
+    width: 15%;
+    text-align: center;
+  }
+  
+  .contents {
+    width: 75%;
+    display: flex;
+    padding: 20px;
+    color: var(--darkest);
+    justify-content: space-evenly;
+  }
+  
+  #intro p {
+    font-size: x-large;
+  }

@@ -1,0 +1,28 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(47, 68, 84, 0.3);
+    height: 825px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+  }
+  
+  #home::before {
+    content: "";
+    position: absolute;
+    background: url("../images/background.jpeg") no-repeat center center/cover;
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
